@@ -2,7 +2,7 @@
 
 This quantum error correction internship project demonstrates how two parity checks locate a deliberately injected bit flip in a three-qubit repetition code. The notebook reconstructs the experiment described in the final presentation and runs locally with a Python state-vector simulation.
 
-![Five-wire circuit showing preparation, encoding, a D1 bit flip, syndrome extraction, and Toffoli correction](bit_flip_circuit.png)
+![Five-wire circuit showing D1 bit-flip detection and correction](figures/bit_flip_circuit.png)
 
 The three data wires are D0, D1, and D2. Two ancilla wires, A0 and A1, store the adjacent parity checks. A filled dot marks a control and a circled plus marks the target. The red X is the injected error.
 
